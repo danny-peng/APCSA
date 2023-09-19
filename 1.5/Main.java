@@ -7,6 +7,8 @@ public class Main {
     System.out.println("Enter a number with a decimal: ");
     double num = s.nextDouble();
     int numInt = (int)num;
+
+    s.close();
     
     System.out.println("The biggest integer I know is " + Integer.MAX_VALUE);
     System.out.println("If turn " + num + " into an integer (" + numInt + "), and add it to that, we get: "); 
